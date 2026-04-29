@@ -103,7 +103,11 @@ Always consider:
 - what feedback they receive
 - whether the flow is emotionally understandable
 
-### 4. Keep Document and Prototype Aligned
+### 4. Mobile One-Screen Rule
+For mobile-first system prototypes, the core loop should fit and operate within a single screen without vertical scrolling.
+Scrolling can exist for supporting information, but the main decision flow should remain visible in one screen whenever possible.
+
+### 5. Keep Document and Prototype Aligned
 If the prototype simplifies rules, call that out clearly.
 
 ## Portfolio Rules
