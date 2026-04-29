@@ -1,17 +1,16 @@
 # game-planning-lab
 
-게임 기획 작업 허브 저장소입니다.
+게임 기획 작업에 공통으로 쓰는 규칙, 프롬프트, 템플릿, 가이드를 모아둔 공용 저장소입니다.
 
-## 구조
+## Structure
 
-- `projects/`: 프로젝트별 기획서, 프로토타입, 전용 프롬프트
-- `prompts/common/`: 공용 프롬프트
-- `templates/`: 새 프로젝트 시작용 템플릿
-- `tasks/`: 할 일 및 lessons 기록
-- `archive/`: 비활성 참고 자료
+- `CLAUDE.md`: AI 작업 규칙
+- `prompts/`: 공용 프롬프트
+- `templates/`: 재사용 템플릿
+- `guides/`: 운용 가이드
+- `tasks/`: todo / lessons 기록
+- `CHANGELOG.md`: 공용 파일 수정 이력
 
-## 기본 원칙
+## Note
 
-- 저장소는 넓게, 프로젝트는 폴더 단위로 분리
-- 문서(`docs`)와 프로토타입(`prototype`)은 같은 프로젝트 안에서 매칭
-- 공용 프롬프트와 프로젝트 전용 프롬프트를 분리 관리
+실제 프로젝트 작업물은 별도 프로젝트 저장소에서 관리합니다.

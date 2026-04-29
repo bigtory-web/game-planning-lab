@@ -121,18 +121,13 @@ Do not force originality for its own sake.
 ## Project Organization
 
 Use this structure by default:
-- `projects/` for active project folders
-- `prompts/common/` for reusable prompts
+- `prompts/` for reusable prompts
 - `templates/` for reusable templates
+- `guides/` for reference guides
+- `CHANGELOG.md` for shared rule/prompt change history
 - `tasks/todo.md` for active task tracking
 - `tasks/lessons.md` for repeated mistakes and corrections
 - `archive/` for inactive but worth-keeping materials
-
-Each project folder should prefer:
-- `docs/`
-- `prototype/`
-- `prompts/`
-- `assets/`
 
 Use `archive/` for:
 - past company-specific documents
@@ -140,6 +135,8 @@ Use `archive/` for:
 - rejected system structures
 - old prototype versions
 - old prompt versions
+
+If shared files such as `CLAUDE.md`, `prompts/`, `templates/`, or `guides/` are changed, record the change in `CHANGELOG.md`.
 
 ## My Preferences
 
